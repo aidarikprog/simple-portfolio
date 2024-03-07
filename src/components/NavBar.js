@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="container max-w-w text-white">
                     <div className="flex justify-between py-5">
                         <Link
-                            to="/SimplePortfolio"
+                            to="/simple-portfolio"
                             className="flex gap-1"
                         >
                             <p className="font-bold">Freelancer</p>
