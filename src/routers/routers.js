@@ -6,7 +6,7 @@ import { createBrowserRouter } from "react-router-dom"
 
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/simple-portfolio",
         element: <MainPage />,
         errorElement: "page not founded",
     },
