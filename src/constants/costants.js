@@ -16,14 +16,17 @@ export const navBar = [
     {
         id: 1,
         link: "Projects",
+        path: "projects",
     },
     {
         id: 2,
         link: "Skills",
+        path: "skills",
     },
     {
         id: 3,
         link: "Contacts",
+        path: "contacts",
     },
 ]
 
@@ -62,23 +65,23 @@ export const projects = [
 
 export const footer = [
     {
-        id:1,
-        link: vk
+        id: 1,
+        link: vk,
     },
     {
-        id:2,
-        link: insta
+        id: 2,
+        link: insta,
     },
     {
-        id:3,
-        link: twitter
+        id: 3,
+        link: twitter,
     },
     {
-        id:4,
-        link: gitHub
+        id: 4,
+        link: gitHub,
     },
     {
-        id:5,
-        link: linkedIn
+        id: 5,
+        link: linkedIn,
     },
 ]

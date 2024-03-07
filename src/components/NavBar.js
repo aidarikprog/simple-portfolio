@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="container max-w-w text-white">
                     <div className="flex justify-between py-5">
                         <Link
-                            to="/simple-portfolio"
+                            to="/"
                             className="flex gap-1"
                         >
                             <p className="font-bold">Freelancer</p>
@@ -17,7 +17,7 @@ const Navbar = () => {
                         <ul className="flex gap-10">
                             {navBar.map((links) => (
                                 <li key={links.id}>
-                                    <NavLink to={`/${links.link}`}>
+                                    <NavLink to={`/${links.path}`}>
                                         {links.link}
                                     </NavLink>
                                 </li>
