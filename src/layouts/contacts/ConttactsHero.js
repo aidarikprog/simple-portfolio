@@ -12,7 +12,7 @@ const ContactsHero = () => {
                 <h1 className="pb-5 font-bold text-[40px] leading-[130%]">
                     Telegram / WhatsApp
                 </h1>
-                <p>+7 (905) 123-45-67</p>
+                <p>+8 (800) 555-35-35</p>
             </div>
         </>
     )
